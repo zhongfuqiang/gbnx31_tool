@@ -1,0 +1,1924 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\NxMaster.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\logo.ico"
+IDI_ICON_CHECK          ICON    DISCARDABLE     "res\\statusDone.ico"
+IDI_ICON_CHECK_NO       ICON    DISCARDABLE     "res\\statusNotDone.ico"
+IDI_ICON_AFN            ICON    DISCARDABLE     "res\\afn1.ico"
+IDI_ICON3               ICON    DISCARDABLE     "res\\icon3.ico"
+IDI_ICON4               ICON    DISCARDABLE     "res\\down.ico"
+IDI_ICON5               ICON    DISCARDABLE     "res\\volume.ico"
+IDI_ICON6               ICON    DISCARDABLE     "res\\heckout.ico"
+IDI_ICON7               ICON    DISCARDABLE     "res\\mute.ico"
+IDI_ICON8               ICON    DISCARDABLE     "res\\515.ico"
+IDI_ICON9               ICON    DISCARDABLE     "res\\520.ico"
+IDI_ICON_TML_UNCHCEK    ICON    DISCARDABLE     "res\\icon_afn.ico"
+IDI_ICON_TML_CHECK      ICON    DISCARDABLE     "res\\icon_che.ico"
+IDI_ICON11              ICON    DISCARDABLE     "res\\red-upper-T.ico"
+IDI_ICON12              ICON    DISCARDABLE     "res\\520 - 副本.ico"
+IDI_ICON13              ICON    DISCARDABLE     "res\\07.ico"
+IDI_ICON14              ICON    DISCARDABLE     "res\\notification1.ico"
+IDI_ICON15              ICON    DISCARDABLE     "res\\empty.ico"
+IDI_ICON16              ICON    DISCARDABLE     "res\\6.ico"
+IDI_ICON17              ICON    DISCARDABLE     "res\\file.ico"
+IDI_ICON18              ICON    DISCARDABLE     "res\\notification2.ico"
+IDI_ICON19              ICON    DISCARDABLE     "res\\shoppingcart.ico"
+IDI_ICON20              ICON    DISCARDABLE     "res\\d.ico"
+IDI_ICON21              ICON    DISCARDABLE     "res\\move.ico"
+IDI_ICON22              ICON    DISCARDABLE     "res\\rning.ico"
+IDI_ICON24              ICON    DISCARDABLE     "res\\mute1.ico"
+IDI_ICON25              ICON    DISCARDABLE     "res\\up.ico"
+IDI_ICON26              ICON    DISCARDABLE     "res\\icon26.ico"
+IDI_ICON_RED_STOP       ICON    DISCARDABLE     "res\\red-upper-S.ico"
+IDI_ICON_GO             ICON    DISCARDABLE     "res\\green-upper-G.ico"
+IDI_ICON_RIGHT          ICON    DISCARDABLE     "res\\check.ico"
+IDI_ICON_X              ICON    DISCARDABLE     "res\\broken-connection.ico"
+IDI_ICON_RUN            ICON    DISCARDABLE     "res\\ttraveler.ico"
+IDI_ICON_STOP           ICON    DISCARDABLE     "res\\stop.ico"
+IDI_ICON_CLOCK          ICON    DISCARDABLE     "res\\clock.ico"
+IDI_ICON_E              ICON    DISCARDABLE     "res\\private.ico"
+IDI_ICON_FEET           ICON    DISCARDABLE     "res\\two-feet.ico"
+IDI_ICON_NOTE           ICON    DISCARDABLE     "res\\note.ico"
+IDI_ICON_L              ICON    DISCARDABLE     "res\\Left6_32x32x256.ico"
+IDI_ICON_R              ICON    DISCARDABLE     "res\\Right6_32x32x256.ico"
+IDI_ICON_L16            ICON    DISCARDABLE     "res\\ARW07LT.ICO"
+IDI_ICON_R16            ICON    DISCARDABLE     "res\\ARW07RT.ICO"
+IDI_ICON_RUN_MAN        ICON    DISCARDABLE     "res\\Run.ico"
+IDI_ICON_CHECK1         ICON    DISCARDABLE     "res\\ico00001.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 252, 132
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 测试工具"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,198,14,20,20
+    LTEXT           "国标能效通信协议 测试工具 2014/06/05",IDC_STATIC,25,17,
+                    145,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2014",IDC_STATIC,25,101,69,8
+    DEFPUSHBUTTON   "确定",IDOK,180,96,50,14,WS_GROUP
+    LTEXT           "李明 ",IDC_STATIC,25,87,21,8,SS_NOPREFIX
+    LTEXT           "国网电科院 ",IDC_STATIC,25,69,45,8,SS_NOPREFIX
+    LTEXT           "通信与用电技术分公司",IDC_STATIC,75,69,85,8,SS_NOPREFIX
+    LTEXT           "适用于《电力能效监测技术规范 》第3-1部分",IDC_STATIC,25,
+                    37,161,8,SS_NOPREFIX
+    LTEXT           "主(子)站与信息集中与交互终端通信协议(电科院内部版)",
+                    IDC_STATIC,25,51,201,8,SS_NOPREFIX
+    LTEXT           "vliming@126.com",IDC_STATIC_EMAIL,51,88,61,8
+END
+
+IDD_NXMASTER_DIALOG DIALOGEX 0, 0, 620, 396
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "能效测试工具"
+MENU IDR_MENU_MAIN
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,235,195,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "取消",IDCANCEL,235,162,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "发送",IDC_BTN_SEND_CMD,565,217,42,34
+    PUSHBUTTON      "调试",IDC_BTN_AS_CLIENT,167,7,21,14,NOT WS_VISIBLE
+    GROUPBOX        "角色选择",IDC_STATIC_ROLE,11,7,49,60
+    GROUPBOX        "主站参数",IDC_STATIC_CONFIG,72,7,221,60
+    GROUPBOX        "命令缓存",IDC_STATIC_CMD_CACH,331,305,199,51,BS_LEFT | 
+                    NOT WS_VISIBLE
+    CONTROL         "IPAddress1",IDC_IP_ADDR,"SysIPAddress32",WS_TABSTOP,103,
+                    23,99,12
+    PUSHBUTTON      "启动",IDC_BTN_START,226,21,50,14
+    LTEXT           "地址",IDC_STATIC,82,25,17,8
+    LTEXT           "端口",IDC_STATIC_PORT,82,46,17,8
+    EDITTEXT        IDC_EDIT_PORT,103,43,38,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "停止",IDC_BTN_STOP,226,42,50,14
+    CONTROL         "主站",IDC_RADIO_MASTER,"Button",BS_AUTORADIOBUTTON,19,
+                    24,32,10
+    CONTROL         "集中器",IDC_RADIO_TERMINAL,"Button",BS_AUTORADIOBUTTON,
+                    19,45,40,10
+    EDITTEXT        IDC_EDIT_CMD_SAVER,364,305,124,52,ES_MULTILINE | NOT 
+                    WS_VISIBLE | WS_VSCROLL
+    LTEXT           "服务器",IDC_STATIC_STATE,146,46,78,8
+    CONTROL         "Tab1",IDC_TAB_MAIN,"SysTabControl32",0x0,11,93,160,183
+    CONTROL         "",IDC_RICHEDIT_MAIN,"RICHEDIT",ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY | ES_NUMBER | WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP,315,129,288,73
+    PUSHBUTTON      "△",IDC_BUTTON_INSERT,558,329,14,24,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_SEND_MSG,312,221,237,34,ES_MULTILINE | 
+                    WS_VSCROLL
+    CONTROL         "List1",IDC_LIST_TML,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,336,20,264,64
+    PUSHBUTTON      "主站",IDC_BTN_CLR_MST,321,90,21,14
+    PUSHBUTTON      "终端",IDC_BTN_CLR_TML,360,90,21,14
+    PUSHBUTTON      "提示",IDC_BTN_CLR_INFO,399,90,21,14
+    PUSHBUTTON      "解析",IDC_BTN_CLR_UNPACK,438,90,21,14
+    CONTROL         "自动解析",IDC_CHECK_AUTO_UNPACK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,471,93,48,10
+    CONTROL         "忽略心跳",IDC_CHECK_OMIT_HEART_BEAT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,506,91,54,13
+    CONTROL         "自动应答",IDC_CHECK_AUTO_RESPONE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,559,91,54,13
+END
+
+IDD_DLG_PRE_MST DIALOG DISCARDABLE  0, 0, 305, 391
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "PN",IDC_STATIC,16,191,9,8
+    DEFPUSHBUTTON   "修改",IDC_BTN_MODIFY,222,187,50,14
+    CONTROL         "List1",IDC_LIST_PRE_MST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,6,274,219,110
+    CONTROL         "Tree1",IDC_TREE_PRE_MST,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_INFOTIP | WS_BORDER | 
+                    WS_TABSTOP,6,18,69,134
+    EDITTEXT        IDC_EDIT_PN,35,188,174,14,ES_AUTOHSCROLL
+END
+
+IDD_DLG_PRE_TML DIALOG DISCARDABLE  0, 0, 322, 359
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "Tree1",IDC_TREE_PRE_TML,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_INFOTIP | WS_BORDER | 
+                    WS_TABSTOP,7,18,69,134
+    CONTROL         "List1",IDC_LIST_PRE_TML,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,13,215,219,110
+    LTEXT           "PN",IDC_STATIC,16,191,9,8
+    EDITTEXT        IDC_EDIT_PN,35,188,174,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "修改",IDC_BTN_MODIFY,222,187,50,14
+END
+
+IDD_DLG_PACK DIALOG DISCARDABLE  0, 0, 314, 341
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "生成",ID_BTN_GET_CMD,237,285,37,19
+    COMBOBOX        IDC_COMBO_AFN,5,135,128,145,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST_FN,183,0,33,9,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Tree1",IDC_TREE_FN,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_CHECKBOXES | 
+                    WS_BORDER | WS_TABSTOP,2,158,293,115
+    LTEXT           "主站地址",IDC_STATIC,13,46,33,8
+    LTEXT           "终端地址",IDC_STATIC,13,18,33,8
+    LTEXT           "行政区码",IDC_STATIC,13,32,33,8
+    CONTROL         "是",IDC_CHECK_TEAM,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,57,60,44,10
+    LTEXT           "为组地址",IDC_STATIC,13,60,33,8
+    EDITTEXT        IDC_EDIT_TML_ADDR,57,18,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ZONE_CODE,57,32,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MST_ADDR,57,46,28,12,ES_AUTOHSCROLL
+    GROUPBOX        "地址域",IDC_STATIC,5,3,108,75
+    GROUPBOX        "事件计数",IDC_STATIC,120,37,97,41
+    LTEXT           "消息认证 PW",IDC_STATIC,126,18,49,8
+    GROUPBOX        "方向类型",IDC_STATIC,5,80,108,48
+    LTEXT           "重要事件 EC1",IDC_STATIC,128,51,49,8
+    LTEXT           "一般事件 EC2",IDC_STATIC,128,63,49,8
+    EDITTEXT        IDC_EDIT_EC1,181,49,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_EC2,181,61,30,12,ES_AUTOHSCROLL
+    LTEXT           "帧序号 PFC",IDC_STATIC,125,110,41,8
+    GROUPBOX        "时间标签",IDC_STATIC,120,80,167,48
+    GROUPBOX        "登录密码",IDC_STATIC,120,4,167,31
+    EDITTEXT        IDC_EDIT_PW,181,16,70,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TP_HOUR,198,92,15,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TP_MINUTE,225,92,15,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TP_SECOND,252,92,15,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITTP_DAY,171,92,15,12,ES_AUTOHSCROLL
+    LTEXT           "秒",IDC_STATIC,271,94,9,8
+    LTEXT           "日",IDC_STATIC,188,94,9,8
+    LTEXT           "时",IDC_STATIC,215,94,9,8
+    LTEXT           "分",IDC_STATIC,242,94,9,8
+    EDITTEXT        IDC_EDIT_PFC,171,107,27,12,ES_AUTOHSCROLL
+    CONTROL         "直接发送",IDC_CHECK_SEND_INSTANT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,137,131,48,10
+    EDITTEXT        IDC_EDIT_CMD_RESULT,10,281,214,29,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | WS_VSCROLL
+    CONTROL         "到发送栏",IDC_CHECK_INTO_SEND,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,137,143,48,10
+    CONTROL         "加入任务",IDC_CHECK_INTO_TASK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,192,131,48,10
+    CONTROL         "自动对时",IDC_CHECK_TP_AUTO,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,244,143,48,10
+    LTEXT           "时间    TP",IDC_STATIC,125,94,41,8
+    LTEXT           "允许时延",IDC_STATIC,206,110,33,8
+    LTEXT           "(16字节)",IDC_STATIC,252,18,33,8
+    LTEXT           "",IDC_STATIC_DIR_M2S,63,91,40,8
+    LTEXT           "主站->终端:",IDC_STATIC,12,91,45,8
+    LTEXT           "终端->主站:",IDC_STATIC,12,103,45,8
+    LTEXT           "应答帧类型:",IDC_STATIC,12,115,45,8
+    LTEXT           "",IDC_STATIC_DIR_S2M,63,103,40,8
+    LTEXT           "",IDC_STATIC_DIR_RES,63,115,40,8
+    CONTROL         "显示文本",IDC_CHECK_TEXT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,192,143,48,10
+    EDITTEXT        IDC_EDIT_PermitDelayMinutes,246,107,22,12,ES_AUTOHSCROLL
+    LTEXT           "分",IDC_STATIC,271,110,9,8
+    CONTROL         "主动上报",IDC_CHECK_AUTO,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,159,313,51,13
+    CONTROL         "统一地址",IDC_CHECK_EACH,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,244,131,48,10
+    LTEXT           "PSEQ",IDC_STATIC,228,51,17,8
+    GROUPBOX        "帧序列号",IDC_STATIC,219,37,68,41
+    EDITTEXT        IDC_EDIT_RES_DELAY,254,314,31,13,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    LTEXT           "应答延时",IDC_STATIC,215,316,33,8,NOT WS_VISIBLE
+    LTEXT           "RSEQ",IDC_STATIC,228,63,17,8
+    EDITTEXT        IDC_EDIT_PSEQ,251,50,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_RSEQ,251,63,30,12,ES_AUTOHSCROLL
+END
+
+IDD_DLG_TASK DIALOG DISCARDABLE  0, 0, 297, 334
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_SEND_TEXT,29,73,141,37,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | WS_VSCROLL
+    PUSHBUTTON      "开始",IDC_BTN_GO_STOP,222,19,50,14
+    PUSHBUTTON      "开始",IDC_BTN_LIST_GO_STOP,222,166,50,14
+    CONTROL         "List1",IDC_LIST_TASK,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,14,201,177,92
+    GROUPBOX        "单条方式",IDC_STATIC_ONE,7,7,290,114
+    GROUPBOX        "逐条方式",IDC_STATIC_LIST,7,124,290,182
+    EDITTEXT        IDC_EDIT_ONE_ZQ,38,21,29,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ONE_TIMES,101,21,35,12,ES_AUTOHSCROLL
+    LTEXT           "周期",IDC_STATIC,14,23,17,8
+    LTEXT           "毫秒",IDC_STATIC,75,23,17,8
+    LTEXT           "次数",IDC_STATIC,141,23,17,8
+    LTEXT           "设置发送周期及总次数",IDC_STATIC_SHOW_ONE,26,42,228,9
+    EDITTEXT        IDC_EDIT_LIST_ZQ,52,169,29,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LIST_TIMES,124,169,35,12,ES_AUTOHSCROLL
+    LTEXT           "周期",IDC_STATIC,28,171,17,8
+    LTEXT           "毫秒",IDC_STATIC,89,171,17,8
+    LTEXT           "次数",IDC_STATIC,164,171,17,8
+    CONTROL         "逐个终端发送",IDC_RADIO_LIST_PER_TML,"Button",
+                    BS_AUTORADIOBUTTON,29,147,64,10
+    CONTROL         "逐条命令发送",IDC_RADIO_LIST_PER_CMD,"Button",
+                    BS_AUTORADIOBUTTON,121,147,64,10
+    PUSHBUTTON      "清空",IDC_BTN_CLR,165,19,50,14
+END
+
+IDD_DLG_UNPACK DIALOG DISCARDABLE  0, 0, 295, 331
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "解析结果：",IDC_STATIC,9,120,41,8
+    EDITTEXT        IDC_EDIT_UNPACK_CMD,3,7,287,88,ES_MULTILINE | WS_VSCROLL
+    PUSHBUTTON      "解析",IDC_BTN_UNPACK,222,101,50,14
+    CONTROL         "树形显示",IDC_CHECK_TREE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,58,103,48,10
+    CONTROL         "文本显示",IDC_CHECK_TEXT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,113,103,48,10
+    LTEXT           "解析成功",IDC_STATIC_UNPACK_RESULT,58,120,159,8
+    CONTROL         "Tree1",IDC_TREE_UNPACK,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | 
+                    WS_BORDER | WS_TABSTOP,1,137,287,180
+    LTEXT           "显示方式：",IDC_STATIC,9,103,41,8
+    PUSHBUTTON      "清空",IDC_BTN_CLR_INPUT,164,101,50,14
+END
+
+IDD_DLG_PRE_AFN04_F1 DIALOG DISCARDABLE  0, 0, 240, 174
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,49,148,50,14
+    PUSHBUTTON      "取消",IDCANCEL,141,148,50,14
+    LTEXT           "终端数传机延时时间RTS",IDC_STATIC,33,141,85,10,NOT 
+                    WS_VISIBLE
+    LTEXT           "集中器允许发送传输延时时间",IDC_STATIC,13,10,105,8
+    LTEXT           "重发次数",IDC_STATIC,85,29,33,8
+    LTEXT           "心跳周期",IDC_STATIC,85,46,33,10
+    LTEXT           "集中器等待响应的超时时间",IDC_STATIC,21,65,97,8
+    LTEXT           "允许自动上报实时数据",IDC_STATIC,37,84,81,8
+    LTEXT           "允许自动上报任务数据",IDC_STATIC,37,103,81,8
+    LTEXT           "允许自动上事件类数据",IDC_STATIC,37,122,81,8
+    EDITTEXT        IDC_EDIT_RTS,125,138,62,13,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    EDITTEXT        IDC_EDIT_RTM,125,7,62,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_RESENDTIMES,125,26,62,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_HEART_BEAT,125,45,62,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TM_WAIT_TIMEOUT,125,64,62,13,ES_AUTOHSCROLL
+    CONTROL         "允许",IDC_RADIO_ASK1_PERMIT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,124,82,32,10
+    CONTROL         "禁止",IDC_RADIO_ASK1_DENY,"Button",BS_AUTORADIOBUTTON,
+                    157,82,32,10
+    CONTROL         "允许",IDC_RADIO_ASK2_PERMIT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,124,101,32,10
+    CONTROL         "禁止",IDC_RADIO_ASK2_DENY,"Button",BS_AUTORADIOBUTTON,
+                    157,101,32,10
+    CONTROL         "允许",IDC_RADIO_ASK3_PERMIT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,124,120,32,10
+    CONTROL         "禁止",IDC_RADIO_ASK3_DENY,"Button",BS_AUTORADIOBUTTON,
+                    157,120,32,10
+    LTEXT           "0~3",IDC_STATIC,194,29,13,8
+    LTEXT           "0~4095 秒",IDC_STATIC,194,65,37,8
+    LTEXT           "20ms",IDC_STATIC,195,141,17,8,NOT WS_VISIBLE
+    LTEXT           "0~255 分",IDC_STATIC,194,46,33,8
+    LTEXT           "0~255 分",IDC_STATIC,194,10,33,8
+END
+
+IDD_DLG_PRE_AFN04_F33 DIALOG DISCARDABLE  0, 0, 231, 161
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "主站预设置 (AFN_04 F33) 非电气量参数配置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确认",IDOK,47,121,50,14
+    PUSHBUTTON      "取消",IDCANCEL,137,121,50,14
+    LTEXT           "测试点号：",IDC_STATIC,36,33,41,8
+    LTEXT           "非电气量类型：",IDC_STATIC,20,52,57,8
+    LTEXT           "量程上限：",IDC_STATIC,36,71,41,8
+    LTEXT           "量程下限：",IDC_STATIC,34,90,41,8
+    EDITTEXT        IDC_EDIT_PN,87,29,70,15,ES_AUTOHSCROLL
+    LTEXT           "(0 - 65535)",IDC_STATIC,174,34,45,8
+    COMBOBOX        IDC_COMBO_TYPE,87,50,53,73,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_MAX,87,68,70,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MIN,87,87,70,15,ES_AUTOHSCROLL
+END
+
+IDD_DLG_AFN00_F1 DIALOG DISCARDABLE  0, 0, 264, 236
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "配置数据（AFN00 确认否认）"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确认",IDOK,60,205,50,14
+    PUSHBUTTON      "取消",IDCANCEL,152,205,50,14
+    CONTROL         "0 确认",IDC_RADIO_0,"Button",BS_AUTORADIOBUTTON,36,53,
+                    40,10
+    LTEXT           "F1 全部确认/否认：对收到报文中的全部数据单元标识进行确认/否认",
+                    IDC_STATIC,6,14,245,8
+    CONTROL         "1 无请求的数据、无设置的参数、无要执行的功能",
+                    IDC_RADIO_1,"Button",BS_AUTORADIOBUTTON,36,68,192,10
+    CONTROL         "2 请求的数据未产生、功能执行未满足",IDC_RADIO_2,"Button",
+                    BS_AUTORADIOBUTTON,36,83,152,10
+    CONTROL         "3 请求的数据已经被移出保存窗口",IDC_RADIO_3,"Button",
+                    BS_AUTORADIOBUTTON,36,98,136,10
+    CONTROL         "4 请求的数据超出支持的信息点范围",IDC_RADIO_4,"Button",
+                    BS_AUTORADIOBUTTON,36,113,144,10
+    CONTROL         "5 设置的参数超出支持的信息点范围",IDC_RADIO_5,"Button",
+                    BS_AUTORADIOBUTTON,36,128,144,10
+    CONTROL         "6 设置的接入端口号及属性与实际不符",IDC_RADIO_6,"Button",
+                    BS_AUTORADIOBUTTON,36,143,152,10
+    CONTROL         "7 指定接口不支持转发",IDC_RADIO_7,"Button",
+                    BS_AUTORADIOBUTTON,36,158,96,10
+    CONTROL         "255 否认",IDC_RADIO_255,"Button",BS_AUTORADIOBUTTON,36,
+                    173,48,10
+    GROUPBOX        "确认或否认信息码",IDC_STATIC,16,36,226,155
+END
+
+IDD_DLG_PRE_AFN0C_F90_NOT_ELEC DIALOG DISCARDABLE  0, 0, 231, 161
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "主站预设置 (AFN_04 F33) 非电气量参数配置"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "取消",IDCANCEL,137,121,50,14
+    LTEXT           "测试点号：",-1,36,33,41,8
+    LTEXT           "非电气量类型：",-1,20,52,57,8
+    LTEXT           "非电气量：",-1,36,71,41,8
+    EDITTEXT        IDC_EDIT_PN,87,29,70,15,ES_AUTOHSCROLL
+    LTEXT           "(0 - 2033)",-1,174,34,41,8
+    COMBOBOX        IDC_COMBO_TYPE,87,50,53,73,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_VALUE,87,68,70,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "确定",IDC_BUTTON_OK,39,119,50,14
+END
+
+IDD_DLG_SINGLE DIALOG DISCARDABLE  0, 0, 298, 174
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,66,120,50,14
+    PUSHBUTTON      "取消",IDCANCEL,150,120,50,14
+    EDITTEXT        IDC_EDIT_VALUE,72,41,161,16,ES_AUTOHSCROLL
+    LTEXT           "数值",IDC_STATIC,45,43,17,8
+END
+
+IDD_DLG_PRE_AFN04_F2 DIALOGEX 0, 0, 285, 334
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "主(子)站参数"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_NUM_TOTAL,73,17,40,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NUM_TH,73,36,40,13,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_ID,73,72,40,13,ES_AUTOHSCROLL
+    CONTROL         "有效",IDC_RADIO_VALID,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,73,90,32,10
+    CONTROL         "无效",IDC_RADIO_INVALID,"Button",BS_AUTORADIOBUTTON,114,
+                    90,32,10
+    CONTROL         "全部",IDC_RADIO_PAITU,"Button",BS_AUTORADIOBUTTON | NOT 
+                    WS_VISIBLE | WS_GROUP,219,93,32,10
+    CONTROL         "IPAddress1",IDC_IP_MAIN,"SysIPAddress32",WS_TABSTOP,73,
+                    141,89,13
+    EDITTEXT        IDC_EDIT_PORT_MAIN,73,160,62,13,ES_AUTOHSCROLL
+    CONTROL         "IPAddress1",IDC_IP_BACK,"SysIPAddress32",WS_TABSTOP,73,
+                    178,89,13
+    EDITTEXT        IDC_EDIT_PORT_BACK,73,196,62,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_APN,73,216,89,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_USR,73,234,89,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PWD,73,255,89,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,73,294,50,14
+    PUSHBUTTON      "取消",IDCANCEL,165,294,50,14
+    LTEXT           "本次设置共",IDC_STATIC,24,19,41,8
+    LTEXT           "备用端口号",IDC_STATIC,24,200,41,8
+    LTEXT           "个",IDC_STATIC,113,19,9,8
+    LTEXT           "本次设置第",IDC_STATIC,24,38,41,8
+    LTEXT           "有效性标志",IDC_STATIC,24,92,41,8
+    LTEXT           "排他性标识",IDC_STATIC,24,111,41,8
+    LTEXT           "主用IP地址",IDC_STATIC,24,143,41,8
+    LTEXT           "主用端口号",IDC_STATIC,24,162,41,8
+    LTEXT           "备用IP地址",IDC_STATIC,24,181,41,8
+    LTEXT           "个",IDC_STATIC,113,38,9,8
+    LTEXT           "(0～255, 0表示删除所有主(子)站参数)",IDC_STATIC,129,19,
+                    141,8
+    GROUPBOX        "                                                      ",
+                    IDC_STATIC,7,60,270,221,BS_CENTER,WS_EX_TRANSPARENT
+    LTEXT           "密码",IDC_STATIC,48,257,17,8
+    LTEXT           "(目前协议有问题，该项暂不设置)",IDC_STATIC,154,33,121,8,
+                    NOT WS_VISIBLE
+    LTEXT           "APN",IDC_STATIC,52,219,13,8
+    LTEXT           "用户名",IDC_STATIC,40,238,25,8
+    LTEXT           "(仅支持IPV4)",IDC_STATIC,168,143,49,8
+    LTEXT           "(仅支持IPV4)",IDC_STATIC,168,181,49,8
+    LTEXT           "(0~65535)",IDC_STATIC,168,162,49,8
+    LTEXT           "(0~65535)",IDC_STATIC,168,200,49,8
+    LTEXT           "(0~16字符)",IDC_STATIC,168,218,49,8
+    LTEXT           "(0~32字符)",IDC_STATIC,168,237,49,8
+    LTEXT           "(0~32字符)",IDC_STATIC,168,257,49,8
+    LTEXT           "编号",IDC_STATIC,48,75,17,8
+    LTEXT           "(0～255)",IDC_STATIC,168,73,33,8
+    CONTROL         "Tab1",IDC_TAB1,"SysTabControl32",TCS_RAGGEDRIGHT,36,51,
+                    213,14,WS_EX_TRANSPARENT
+    COMBOBOX        IDC_COMB_CMD,73,107,194,99,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "排他性测量点",IDC_STATIC,16,127,49,8
+    EDITTEXT        IDC_EDIT_PN,73,124,46,14,ES_AUTOHSCROLL
+    LTEXT           "(0~2040)",IDC_STATIC_PN,131,127,136,8
+END
+
+IDD_DIALOG_PN DIALOG DISCARDABLE  0, 0, 233, 256
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,52,219,50,14
+    PUSHBUTTON      "取消",IDCANCEL,127,220,50,14
+    CONTROL         "List1",IDC_LIST_PN,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,23,55,186,149
+    EDITTEXT        IDC_EDIT_PN,68,34,135,14,ES_AUTOHSCROLL
+    LTEXT           "测量点类型:",IDC_STATIC,20,15,45,8
+    LTEXT           "测量点序列:",IDC_STATIC,20,37,45,8
+    LTEXT           "测量点类型",IDC_STATIC_TYPE,68,15,41,8
+END
+
+IDD_DIALOG3 DIALOG DISCARDABLE  0, 0, 187, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,130,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,130,24,50,14
+END
+
+IDD_DLG_PRE_AFN04_F34 DIALOG DISCARDABLE  0, 0, 226, 204
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AFN04_F34 非电气量测量点参数"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确认",IDOK,44,173,50,14
+    PUSHBUTTON      "取消",IDCANCEL,136,173,50,14
+    LTEXT           "数据类型",IDC_STATIC,17,47,33,8
+    LTEXT           "量程(上)",IDC_STATIC,17,124,33,8
+    LTEXT           "量程(下)",IDC_STATIC,17,144,33,8
+    CONTROL         "温度",IDC_RADIO_TEMP,"Button",BS_AUTORADIOBUTTON,65,22,
+                    32,10
+    CONTROL         "流量",IDC_RADIO_FLOW,"Button",BS_AUTORADIOBUTTON,65,38,
+                    32,10
+    CONTROL         "流速",IDC_RADIO_FV,"Button",BS_AUTORADIOBUTTON,65,54,32,
+                    10
+    CONTROL         "压力",IDC_RADIO_PRESS,"Button",BS_AUTORADIOBUTTON,65,70,
+                    32,10
+    CONTROL         "湿度",IDC_RADIO_HUMI,"Button",BS_AUTORADIOBUTTON,122,22,
+                    32,10
+    CONTROL         "照度",IDC_RADIO_LIGHT,"Button",BS_AUTORADIOBUTTON,122,
+                    38,32,10
+    CONTROL         "转速",IDC_RADIO_RV,"Button",BS_AUTORADIOBUTTON,122,54,
+                    32,10
+    CONTROL         "4-20mA",IDC_RADIO_420MA,"Button",BS_AUTORADIOBUTTON,122,
+                    70,40,10
+    GROUPBOX        "",IDC_STATIC,58,9,120,79
+    EDITTEXT        IDC_EDIT_UP,58,122,63,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DN,58,142,63,14,ES_AUTOHSCROLL
+    LTEXT           "数据精度",IDC_STATIC,17,104,33,8
+    COMBOBOX        IDC_CMBO_PREC,58,101,120,107,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "说明",IDC_STATIC_INFO,124,144,98,8
+    LTEXT           "说明",IDC_STATIC_INFO2,124,124,98,8
+END
+
+IDD_DLG_PRE_AFN04_F35 DIALOG DISCARDABLE  0, 0, 226, 204
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AFN04_F34 非电气量测量点参数"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确认",IDOK,44,173,50,14
+    PUSHBUTTON      "取消",IDCANCEL,136,173,50,14
+    LTEXT           "数据类型",IDC_STATIC,17,47,33,8
+    LTEXT           "量程(上)",IDC_STATIC,17,124,33,8
+    LTEXT           "量程(下)",IDC_STATIC,17,144,33,8
+    CONTROL         "温度",IDC_RADIO_TEMP,"Button",BS_AUTORADIOBUTTON,65,22,
+                    32,10
+    CONTROL         "流量",IDC_RADIO_FLOW,"Button",BS_AUTORADIOBUTTON,65,38,
+                    32,10
+    CONTROL         "流速",IDC_RADIO_FV,"Button",BS_AUTORADIOBUTTON,65,54,32,
+                    10
+    CONTROL         "压力",IDC_RADIO_PRESS,"Button",BS_AUTORADIOBUTTON,65,70,
+                    32,10
+    CONTROL         "湿度",IDC_RADIO_HUMI,"Button",BS_AUTORADIOBUTTON,122,22,
+                    32,10
+    CONTROL         "照度",IDC_RADIO_LIGHT,"Button",BS_AUTORADIOBUTTON,122,
+                    38,32,10
+    CONTROL         "转速",IDC_RADIO_RV,"Button",BS_AUTORADIOBUTTON,122,54,
+                    32,10
+    CONTROL         "4-20mA",IDC_RADIO_420MA,"Button",BS_AUTORADIOBUTTON,122,
+                    70,40,10
+    GROUPBOX        "",IDC_STATIC,58,9,120,79
+    EDITTEXT        IDC_EDIT_UP,58,122,63,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DN,58,142,63,14,ES_AUTOHSCROLL
+    LTEXT           "数据精度",IDC_STATIC,17,104,33,8
+    COMBOBOX        IDC_CMBO_PREC,58,101,120,107,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "说明",IDC_STATIC_INFO,124,144,98,8
+    LTEXT           "说明",IDC_STATIC_INFO2,124,124,98,8
+END
+
+IDD_DLG_PRE_AFN04_F25_F33 DIALOG DISCARDABLE  0, 0, 268, 280
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_ID,102,19,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PORT,102,39,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ucAddr,102,59,75,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMB_PROTO,102,79,75,78,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_PWD,102,97,32,14,ES_AUTOHSCROLL
+    CONTROL         "IPAddress1",IDC_IP_sAccess,"SysIPAddress32",WS_TABSTOP,
+                    102,117,100,14
+    EDITTEXT        IDC_EDIT_usAcsPort,102,135,32,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMB_PORT,101,156,75,68,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMB_BAUD,101,178,47,92,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMB_STOP,102,195,47,47,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMB_DATABIT,101,212,47,56,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMB_CHECK,101,229,47,48,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "确定",IDOK,57,252,50,14
+    PUSHBUTTON      "取消",IDCANCEL,149,252,50,14
+    LTEXT           "所属集中器/监测终端号",IDC_STATIC,11,22,85,8
+    LTEXT           "接入端口号",IDC_STATIC,55,42,41,8
+    LTEXT           "接入设备通信地址",IDC_STATIC,31,62,65,8
+    LTEXT           "接入设备通信协议类型",IDC_STATIC,15,82,81,8
+    LTEXT           "通信密码",IDC_STATIC,63,100,33,8
+    LTEXT           "接入端口属性",IDC_STATIC,47,157,49,8
+    LTEXT           "接入地址",IDC_STATIC_ACS_IP,63,179,33,8
+    LTEXT           "接入设备侦听端口号",IDC_STATIC,23,138,73,8
+    LTEXT           "接入设备IP地址",IDC_STATIC,39,119,57,8
+    LTEXT           "0:接入集中器 (1~255) :接入终端",IDC_STATIC,139,22,121,8
+    LTEXT           "1~255",IDC_STATIC,139,42,21,8
+    LTEXT           "1~16 个数字",IDC_STATIC,188,62,45,8
+    LTEXT           "1~6  个字符",IDC_STATIC,189,100,45,8
+    LTEXT           "波特率",IDC_STATIC_BAUD,71,179,25,8
+    LTEXT           "数据位",IDC_STATIC_DATABIT,71,213,25,8
+    LTEXT           "停止位",IDC_STATIC_STOP,71,196,25,8
+    LTEXT           "校验位",IDC_STATIC_CHECK,71,232,25,8
+    CONTROL         "IPAddress1",IDC_IP_ACS,"SysIPAddress32",WS_TABSTOP,101,
+                    178,100,14
+    EDITTEXT        IDC_EDIT_ACS_PORT,101,195,32,14,ES_AUTOHSCROLL
+    LTEXT           "接入端口",IDC_STATIC_ACS_PORT,63,196,33,8
+    EDITTEXT        IDC_EDIT_ZIGBEE_MAC,101,178,83,14,ES_AUTOHSCROLL
+    LTEXT           "MAC地址",IDC_STATIC_ZIGBEE_MAC,65,180,29,8
+END
+
+IDD_DLG_PRE_AFN04_F3 DIALOG DISCARDABLE  0, 0, 254, 152
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AFN04 F2 集中与交互终端上行通信消息认证参数"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,57,111,50,14
+    PUSHBUTTON      "取消",IDCANCEL,149,111,50,14
+    LTEXT           "消息认证方案编号",IDC_STATIC,23,29,65,8
+    LTEXT           "消息认证方案参数",IDC_STATIC,23,79,65,8
+    EDITTEXT        IDC_EDIT_TYPE_ID,94,27,38,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PARA,94,77,38,13,ES_AUTOHSCROLL
+    LTEXT           "255 专用硬件认证方案",IDC_STATIC,142,44,81,8
+    LTEXT           "0  表示不认证",IDC_STATIC,142,29,53,8
+    LTEXT           "1～254 各种软件认证方案",IDC_STATIC,142,59,93,8
+    LTEXT           "0～65535",IDC_STATIC,142,79,33,8
+END
+
+IDD_DLG_PRE_AFN04_F4 DIALOG DISCARDABLE  0, 0, 228, 190
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AFN04 F4 信息集中与交互终端组地址"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,42,157,50,14
+    PUSHBUTTON      "取消",IDCANCEL,134,157,50,14
+    LTEXT           "组地址 1",IDC_STATIC,34,20,33,8
+    EDITTEXT        IDC_EDIT_TEAM_1,74,18,73,12,ES_AUTOHSCROLL
+    LTEXT           "组地址 2",IDC_STATIC,34,35,33,8
+    LTEXT           "组地址 3",IDC_STATIC,34,50,33,8
+    LTEXT           "组地址 4",IDC_STATIC,34,65,33,8
+    LTEXT           "组地址 5",IDC_STATIC,34,80,33,8
+    LTEXT           "组地址 6",IDC_STATIC,34,95,33,8
+    LTEXT           "组地址 7",IDC_STATIC,34,110,33,8
+    LTEXT           "组地址 8",IDC_STATIC,34,125,33,8
+    EDITTEXT        IDC_EDIT_TEAM_2,74,33,73,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TEAM_3,74,48,73,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TEAM_4,74,63,73,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TEAM_5,74,78,73,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TEAM_6,74,93,73,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TEAM_7,74,108,73,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TEAM_8,74,123,73,12,ES_AUTOHSCROLL
+    LTEXT           "为0表示不设组地址",IDC_STATIC,75,139,69,8
+    LTEXT           "0 ~ 4294967295",IDC_STATIC,152,19,57,8
+    LTEXT           "0 ~ 4294967295",IDC_STATIC,152,35,57,8
+    LTEXT           "0 ~ 4294967295",IDC_STATIC,152,49,57,8
+    LTEXT           "0 ~ 4294967295",IDC_STATIC,152,65,57,8
+    LTEXT           "0 ~ 4294967295",IDC_STATIC,152,79,57,8
+    LTEXT           "0 ~ 4294967295",IDC_STATIC,152,95,57,8
+    LTEXT           "0 ~ 4294967295",IDC_STATIC,152,109,57,8
+    LTEXT           "0 ~ 4294967295",IDC_STATIC,152,125,57,8
+END
+
+IDD_DLG_PRE_AFN04_F5 DIALOG DISCARDABLE  0, 0, 261, 218
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AFN04 F5 信息集中与交互终端IP地址和端口"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,49,182,50,14
+    PUSHBUTTON      "取消",IDCANCEL,141,182,50,14
+    LTEXT           "集中器侦听端口",IDC_STATIC,22,13,57,8
+    EDITTEXT        IDC_EDIT_usPort,86,10,52,13,ES_AUTOHSCROLL
+    LTEXT           "集中器IP地址",IDC_STATIC,30,29,49,8
+    LTEXT           "子网掩码地址",IDC_STATIC,30,45,49,8
+    LTEXT           "网关地址",IDC_STATIC,46,61,33,8
+    LTEXT           "代理类型",IDC_STATIC,46,76,33,8
+    LTEXT           "代理服务器地址",IDC_STATIC,22,93,57,8
+    LTEXT           "代理服务器端口",IDC_STATIC,22,109,57,8
+    LTEXT           "代理服务器连接方式",IDC_STATIC,6,124,73,8
+    LTEXT           "0 ~ 65535",IDC_STATIC,195,13,37,8
+    LTEXT           "0～20 个字符",IDC_STATIC,195,141,49,8
+    LTEXT           "代理服务器用户名",IDC_STATIC,14,142,65,8
+    LTEXT           "代理服务器密码",IDC_STATIC,22,159,57,8
+    CONTROL         "IPAddress1",IDC_IP_sConIp,"SysIPAddress32",WS_TABSTOP,
+                    86,26,100,13
+    CONTROL         "IPAddress1",IDC_IP_sMask,"SysIPAddress32",WS_TABSTOP,86,
+                    42,100,13
+    CONTROL         "IPAddress1",IDC_IP_sGateIp,"SysIPAddress32",WS_TABSTOP,
+                    86,58,100,13
+    CONTROL         "IPAddress1",IDC_IP_sDelgIp,"SysIPAddress32",WS_TABSTOP,
+                    86,90,100,13
+    COMBOBOX        IDC_COMBO_eDelegate,86,74,52,57,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_usDelgPort,86,106,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ucDlegUsr,86,139,100,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ucDlegPwd,86,156,100,13,ES_AUTOHSCROLL
+    LTEXT           "0 ~ 65535",IDC_STATIC,195,110,37,8
+    LTEXT           "0～20 个字符",IDC_STATIC,195,158,49,8
+    CONTROL         "需要验证",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,86,124,
+                    48,10
+    CONTROL         "不需要验证",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,134,
+                    124,56,10
+END
+
+IDD_DLG_PRE_AFN04_F7 DIALOG DISCARDABLE  0, 0, 260, 209
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AFN04 F5 信息集中与交互终端IP地址和端口"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,56,172,50,14
+    PUSHBUTTON      "取消",IDCANCEL,148,172,50,14
+    LTEXT           "集中器下行端口",IDC_STATIC,21,19,57,8
+    EDITTEXT        IDC_EDIT_ucPort,85,16,52,13,ES_AUTOHSCROLL
+    LTEXT           "主用IP地址",IDC_STATIC,37,36,41,8
+    LTEXT           "备用IP地址",IDC_STATIC,37,70,41,8
+    LTEXT           "主用端口",IDC_STATIC,45,53,33,8
+    LTEXT           "0 ~ 255",IDC_STATIC,194,19,29,8
+    LTEXT           "0～32 个字符",IDC_STATIC,194,122,49,8
+    LTEXT           "代理服务器用户名",IDC_STATIC,13,121,65,8
+    LTEXT           "代理服务器密码",IDC_STATIC,21,138,57,8
+    CONTROL         "IPAddress1",IDC_IP_sMainIp,"SysIPAddress32",WS_TABSTOP,
+                    85,33,100,13
+    CONTROL         "IPAddress1",IDC_IP_sBackIp,"SysIPAddress32",WS_TABSTOP,
+                    85,67,100,13
+    EDITTEXT        IDC_EDIT_usMainPort,85,50,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ucUsr,85,118,100,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ucPwd,85,136,100,13,ES_AUTOHSCROLL
+    LTEXT           "0 ~ 65535",IDC_STATIC,194,53,37,8
+    LTEXT           "0～32 个字符",IDC_STATIC,194,139,49,8
+    LTEXT           "主用端口",IDC_STATIC,45,87,33,8
+    EDITTEXT        IDC_EDIT_usBackPort,85,83,52,13,ES_AUTOHSCROLL
+    LTEXT           "0 ~ 65535",IDC_STATIC,194,85,37,8
+    LTEXT           "0～16个字符",IDC_STATIC,194,102,45,8
+    LTEXT           "代理服务器用户名",IDC_STATIC,13,104,65,8
+    EDITTEXT        IDC_EDIT_ucAPN,85,101,100,13,ES_AUTOHSCROLL
+END
+
+IDD_DLG_PRE_AFN04_F9 DIALOG DISCARDABLE  0, 0, 301, 339
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AFN04 F9 事件记录配置"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_usImpRecNum,125,10,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_usNmlRecNum,125,28,48,12,ES_AUTOHSCROLL
+    CONTROL         "1",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,136,
+                    60,20,10
+    CONTROL         "1",IDC_RADIO_NML1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,174,60,20,10
+    CONTROL         "1",IDC_RADIO_IMP1,"Button",BS_AUTORADIOBUTTON,215,60,21,
+                    9
+    CONTROL         "2",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,136,
+                    72,20,10
+    CONTROL         "2",IDC_RADIO_NML2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,174,72,20,10
+    CONTROL         "2",IDC_RADIO_IMP2,"Button",BS_AUTORADIOBUTTON,215,72,20,
+                    10
+    CONTROL         "3",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,136,
+                    84,20,10
+    CONTROL         "3",IDC_RADIO_NML3,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,174,84,20,10
+    CONTROL         "3",IDC_RADIO_IMP3,"Button",BS_AUTORADIOBUTTON,215,84,20,
+                    10
+    CONTROL         "4",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,136,
+                    96,20,10
+    CONTROL         "4",IDC_RADIO_NML4,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,174,96,20,10
+    CONTROL         "4",IDC_RADIO_IMP4,"Button",BS_AUTORADIOBUTTON,215,96,20,
+                    10
+    CONTROL         "5",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,136,
+                    108,20,10
+    CONTROL         "5",IDC_RADIO_NML5,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,174,108,20,10
+    CONTROL         "5",IDC_RADIO_IMP5,"Button",BS_AUTORADIOBUTTON,215,108,
+                    20,10
+    CONTROL         "6",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,136,
+                    120,20,10
+    CONTROL         "6",IDC_RADIO_NML6,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,174,120,20,10
+    CONTROL         "6",IDC_RADIO_IMP6,"Button",BS_AUTORADIOBUTTON,215,120,
+                    20,10
+    CONTROL         "7",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,136,
+                    132,20,10
+    CONTROL         "6",IDC_RADIO_NML7,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,174,132,20,10
+    CONTROL         "7",IDC_RADIO_IMP7,"Button",BS_AUTORADIOBUTTON,215,132,
+                    20,10
+    CONTROL         "8",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,136,
+                    144,20,10
+    CONTROL         "8",IDC_RADIO_NML8,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,174,144,20,10
+    CONTROL         "8",IDC_RADIO_IMP8,"Button",BS_AUTORADIOBUTTON,215,144,
+                    20,10
+    CONTROL         "9",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,136,
+                    156,20,10
+    CONTROL         "9",IDC_RADIO_NML9,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,174,156,20,10
+    CONTROL         "9",IDC_RADIO_IMP9,"Button",BS_AUTORADIOBUTTON,215,156,
+                    20,10
+    CONTROL         "10",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    136,168,24,10
+    CONTROL         "10",IDC_RADIO_NML10,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,174,168,20,10
+    CONTROL         "10",IDC_RADIO_IMP10,"Button",BS_AUTORADIOBUTTON,215,168,
+                    20,10
+    CONTROL         "11",IDC_CHECK11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    136,180,24,10
+    CONTROL         "11",IDC_RADIO_NML11,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,174,180,20,10
+    CONTROL         "11",IDC_RADIO_IMP11,"Button",BS_AUTORADIOBUTTON,215,180,
+                    20,10
+    CONTROL         "12",IDC_CHECK12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    136,192,24,10
+    CONTROL         "12",IDC_RADIO_NML12,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,174,192,20,10
+    CONTROL         "12",IDC_RADIO_IMP12,"Button",BS_AUTORADIOBUTTON,215,192,
+                    20,10
+    CONTROL         "13",IDC_CHECK13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    136,204,24,10
+    CONTROL         "13",IDC_RADIO_NML13,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,174,204,20,10
+    CONTROL         "13",IDC_RADIO_IMP13,"Button",BS_AUTORADIOBUTTON,215,204,
+                    20,10
+    CONTROL         "14",IDC_CHECK14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    136,216,24,10
+    CONTROL         "14",IDC_RADIO_NML14,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,174,216,20,10
+    CONTROL         "14",IDC_RADIO_IMP14,"Button",BS_AUTORADIOBUTTON,215,216,
+                    20,10
+    CONTROL         "15",IDC_CHECK15,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    136,228,24,10
+    CONTROL         "15",IDC_RADIO_NML15,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,174,228,20,10
+    CONTROL         "15",IDC_RADIO_IMP15,"Button",BS_AUTORADIOBUTTON,215,228,
+                    20,10
+    CONTROL         "16",IDC_CHECK16,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    136,240,24,10
+    CONTROL         "16",IDC_RADIO_NML16,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,174,240,20,10
+    CONTROL         "16",IDC_RADIO_IMP16,"Button",BS_AUTORADIOBUTTON,215,240,
+                    20,10
+    CONTROL         "17",IDC_CHECK17,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    136,252,24,10
+    CONTROL         "17",IDC_RADIO_NML17,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,174,252,20,10
+    CONTROL         "17",IDC_RADIO_IMP17,"Button",BS_AUTORADIOBUTTON,215,252,
+                    20,10
+    CONTROL         "18",IDC_CHECK18,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    136,264,24,10
+    CONTROL         "18",IDC_RADIO_NML18,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,174,264,20,10
+    CONTROL         "18",IDC_RADIO_IMP18,"Button",BS_AUTORADIOBUTTON,215,264,
+                    20,10
+    CONTROL         "19",IDC_CHECK19,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    136,276,24,10
+    CONTROL         "19",IDC_RADIO_NML19,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,174,276,20,10
+    CONTROL         "19",IDC_RADIO_IMP19,"Button",BS_AUTORADIOBUTTON,215,276,
+                    20,10
+    CONTROL         "20",IDC_CHECK20,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    136,288,24,10
+    CONTROL         "20",IDC_RADIO_NML20,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,174,288,20,10
+    CONTROL         "20",IDC_RADIO_IMP20,"Button",BS_AUTORADIOBUTTON,215,288,
+                    20,10
+    DEFPUSHBUTTON   "确定",IDOK,72,310,50,14
+    PUSHBUTTON      "取消",IDCANCEL,164,310,50,14
+    LTEXT           "重要事件记录条数",IDC_STATIC,58,12,65,8
+    LTEXT           "一般事件记录条数",IDC_STATIC,58,30,65,8
+    LTEXT           "ERC2: 指定数据清零",IDC_STATIC2,29,72,73,8
+    LTEXT           "ERC3: 软件版本变更",IDC_STATIC3,29,84,73,8
+    LTEXT           "ERC4: 参数变更",IDC_STATIC4,29,96,57,8
+    LTEXT           "ERC5: 校时",IDC_STATIC5,29,108,41,8
+    LTEXT           "ERC6: 状态量变位",IDC_STATIC6,29,120,65,8
+    LTEXT           "ERC7: 遥控跳闸",IDC_STATIC7,29,132,57,8
+    LTEXT           "0 ~ 65535",IDC_STATIC,181,12,37,8
+    LTEXT           "0 ~ 65535",IDC_STATIC,181,30,37,8
+    LTEXT           "ERC1: 复位",IDC_STATIC1,29,60,41,8
+    LTEXT           "ERC9: 总功率因素越限",IDC_STATIC9,29,156,81,8
+    LTEXT           "ERC10: 电压偏差越限",IDC_STATIC10,29,168,77,8
+    LTEXT           "ERC11: 电压回路异常",IDC_STATIC11,29,180,77,8
+    LTEXT           "ERC12: 电流回路异常",IDC_STATIC12,29,192,77,8
+    LTEXT           "ERC13: 电压越限",IDC_STATIC13,29,204,61,8
+    LTEXT           "ERC14: 电流越限",IDC_STATIC14,29,216,61,8
+    LTEXT           "ERC8: 停/上电",IDC_STATIC8,29,144,53,8
+    LTEXT           "ERC15: 电压不平衡度越限",IDC_STATIC15,29,228,93,8
+    LTEXT           "ERC16: 电流不平衡度越限",IDC_STATIC16,29,240,93,8
+    LTEXT           "ERC17: 谐波电压畸变率越限",IDC_STATIC17,29,252,101,8
+    LTEXT           "ERC18: 谐波电流畸变率越限",IDC_STATIC18,29,264,101,8
+    LTEXT           "ERC19: 闪变越限",IDC_STATIC19,29,276,61,8
+    LTEXT           "ERC20: 非电气量越限",IDC_STATIC20,29,288,77,8
+    CONTROL         "有效性",IDC_CHECK_ALL_VALID,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,28,49,40,10
+    CONTROL         "一般",IDC_CHECK_ALL_NOMARL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,175,49,32,10
+    CONTROL         "重要",IDC_CHECK_ALL_IMP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,215,49,32,10
+END
+
+IDD_DLG_PRE_AFN04_F10 DIALOG DISCARDABLE  0, 0, 232, 216
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AFN04_F10 设备状态量输入参数"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确认",IDOK,43,176,50,14
+    PUSHBUTTON      "取消",IDCANCEL,135,176,50,14
+    LTEXT           "状态量接入",-1,47,19,41,8
+    LTEXT           "状态量触点",-1,139,19,41,8
+    CONTROL         "1 路接入",IDC_CHECK_IN_1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,47,36,48,10
+    CONTROL         "2 路接入",IDC_CHECK_IN_2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,47,52,48,10
+    CONTROL         "3 路接入",IDC_CHECK_IN_3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,47,68,48,10
+    CONTROL         "4 路接入",IDC_CHECK_IN_4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,47,84,52,10
+    CONTROL         "5 路接入",IDC_CHECK_IN_5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,47,100,52,10
+    CONTROL         "6 路接入",IDC_CHECK_IN_6,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,47,116,52,10
+    CONTROL         "7 路接入",IDC_CHECK_IN_7,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,47,132,52,10
+    CONTROL         "8 路接入",IDC_CHECK_IN_8,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,47,148,52,10
+    CONTROL         "1 路常开",IDC_CHECK_ON_1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,139,36,53,14
+    CONTROL         "2 路常开",IDC_CHECK_ON_2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,139,52,53,14
+    CONTROL         "3 路常开",IDC_CHECK_ON_3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,139,68,53,14
+    CONTROL         "4 路常开",IDC_CHECK_ON_4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,139,84,53,14
+    CONTROL         "5 路常开",IDC_CHECK_ON_5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,139,100,53,14
+    CONTROL         "6 路常开",IDC_CHECK_ON_6,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,139,116,53,14
+    CONTROL         "7 路常开",IDC_CHECK_ON_7,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,139,132,53,14
+    CONTROL         "8 路常开",IDC_CHECK_ON_8,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,139,148,53,14
+END
+
+IDD_DLG_PRE_AFN04_F26 DIALOG DISCARDABLE  0, 0, 293, 213
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AFN04 F26 电气测量点基本数据参数"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "4",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    114,22,20,10
+    CONTROL         "5",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,144,22,20,10
+    CONTROL         "6",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,174,22,20,10
+    CONTROL         "7",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,204,22,20,10
+    CONTROL         "1",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    114,40,20,10
+    CONTROL         "2",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,144,40,20,10
+    CONTROL         "3",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,174,40,20,10
+    CONTROL         "4",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,204,40,20,10
+    EDITTEXT        IDC_EDIT_usTimesU,114,55,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_usTimesI,113,74,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_fU,113,90,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_fI,113,109,52,13,ES_AUTOHSCROLL
+    CONTROL         "三相三线",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,114,130,48,10
+    CONTROL         "三相四线",IDC_RADIO10,"Button",BS_AUTORADIOBUTTON,167,
+                    130,48,10
+    CONTROL         "单相表",IDC_RADIO11,"Button",BS_AUTORADIOBUTTON,220,130,
+                    40,10
+    CONTROL         "不确定",IDC_RADIO16,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,114,145,40,10
+    CONTROL         "A相",IDC_RADIO13,"Button",BS_AUTORADIOBUTTON,161,145,28,
+                    10
+    CONTROL         "B相",IDC_RADIO14,"Button",BS_AUTORADIOBUTTON,196,145,28,
+                    10
+    CONTROL         "C相",IDC_RADIO15,"Button",BS_AUTORADIOBUTTON,231,145,28,
+                    10
+    DEFPUSHBUTTON   "确定",IDOK,75,173,50,14
+    PUSHBUTTON      "取消",IDCANCEL,167,173,50,14
+    LTEXT           "有功电能整数位个数",-1,37,22,73,8
+    LTEXT           "有功电能小数位个数",-1,37,40,73,8
+    LTEXT           "电压互感器倍率",-1,53,58,57,8
+    LTEXT           "电流互感器倍率",-1,53,76,57,8
+    LTEXT           "额定电压",-1,77,94,33,8
+    LTEXT           "额定电流",-1,77,112,33,8
+    LTEXT           "电源接线方式",-1,61,130,49,8
+    LTEXT           "0 ~ 65535",-1,176,58,37,8
+    LTEXT           "(+)XXX.X (V)",-1,173,94,49,8
+    LTEXT           "0 ~ 65535",-1,175,76,37,8
+    LTEXT           "(+/-)XXX.XXX (A)",-1,173,112,65,8
+    LTEXT           "单相表接线相",-1,61,148,49,8
+END
+
+IDD_DLG_PRE_AFN04_F27 DIALOG DISCARDABLE  0, 0, 412, 331
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AFN_04 F27 电气测量点电能量限值参数"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_fDropV,94,25,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ucTimeLossV,94,46,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sMcOverV_fUpUp,94,90,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sMcOverV_ucTime,94,106,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sMcOverV_fFactor,94,122,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sMcLossV_fDownDown,94,164,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sMcLossV_ucTime,94,180,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sMcLossV_fFactor,94,196,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sMcOverI_fUpUp,94,237,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sMcOverI_ucTime,94,253,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sMcOverI_fFactor,94,269,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sMcSuperI_fUp,287,20,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sMcSuperI_ucTime,287,36,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sMcSuperI_fFactor,287,52,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sMcZeroI_fUp,287,90,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sMcZeroI_ucTime,287,106,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sMcZeroI_fFactor,287,122,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sMcUnblnV_fLimit,287,164,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sMcUnblnV_ucTime,287,180,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sMcUnblnV_fFactor,287,196,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sMcUnblnI_fLimit,287,237,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sMcUnblnI_ucTime,287,253,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sMcUnblnI_fFactor,287,269,53,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确认",IDOK,118,303,50,14
+    PUSHBUTTON      "取消",IDCANCEL,247,303,50,14
+    LTEXT           "电压断相门限：",IDC_STATIC,34,29,57,8
+    LTEXT           "连续失压时间限值：",IDC_STATIC,18,48,73,8
+    LTEXT           "电压上上限：",IDC_STATIC,42,93,49,8
+    LTEXT           "(+)XXX.X",IDC_STATIC,152,30,33,8
+    LTEXT           "0 - 255",IDC_STATIC,155,51,29,8
+    GROUPBOX        "过压判别参数",IDC_STATIC,13,79,189,68
+    LTEXT           "(+)XXX.X",IDC_STATIC,152,93,33,8
+    LTEXT           "持续时间：",IDC_STATIC,50,109,41,8
+    LTEXT           "越限恢复系数：",IDC_STATIC,34,125,57,8
+    LTEXT           "(+)XX.XX ",IDC_STATIC,152,125,37,8
+    LTEXT           "0 - 255 分",IDC_STATIC,155,109,41,8
+    GROUPBOX        "断相失压判别参数",IDC_STATIC,13,7,189,68
+    LTEXT           "电压下下限：",IDC_STATIC,43,167,49,8
+    GROUPBOX        "欠压判别参数",IDC_STATIC,13,151,189,68
+    LTEXT           "(+)XXX.X",IDC_STATIC,153,167,33,8
+    LTEXT           "持续时间：",IDC_STATIC,51,184,41,8
+    LTEXT           "越限恢复系数：",IDC_STATIC,35,200,57,8
+    LTEXT           "(+)XX.XX ",IDC_STATIC,153,200,37,8
+    LTEXT           "0 - 255 分",IDC_STATIC,156,182,41,8
+    LTEXT           "电流上上限：",IDC_STATIC,43,240,49,8
+    GROUPBOX        "过流判别参数",IDC_STATIC,13,223,189,68
+    LTEXT           "(+/-)XXX.XXX",IDC_STATIC,152,240,49,8
+    LTEXT           "持续时间：",IDC_STATIC,51,257,41,8
+    LTEXT           "越限恢复系数：",IDC_STATIC,35,273,57,8
+    LTEXT           "(+)XX.XX ",IDC_STATIC,152,273,37,8
+    LTEXT           "0 - 255 分",IDC_STATIC,155,255,41,8
+    LTEXT           "额定电流上限：",IDC_STATIC,224,23,57,8
+    GROUPBOX        "超额定电流判别参数",IDC_STATIC,210,7,189,68
+    LTEXT           "(+/-)XXX.XXX",IDC_STATIC,346,23,49,8
+    LTEXT           "持续时间：",IDC_STATIC,240,40,41,8
+    LTEXT           "越限恢复系数：",IDC_STATIC,224,56,57,8
+    LTEXT           "(+)XX.XX ",IDC_STATIC,346,56,37,8
+    LTEXT           "0 - 255 分",IDC_STATIC,349,38,41,8
+    LTEXT           "0序电流上限：",IDC_STATIC,228,93,53,8
+    GROUPBOX        "零序电流超限判别参数",IDC_STATIC,210,79,189,68
+    LTEXT           "持续时间：",IDC_STATIC,240,109,41,8
+    LTEXT           "越限恢复系数：",IDC_STATIC,224,126,57,8
+    LTEXT           "(+)XX.XX ",IDC_STATIC,346,126,37,8
+    LTEXT           "0 - 255 分",IDC_STATIC,349,109,41,8
+    LTEXT           "不平衡度限值：",IDC_STATIC,224,167,57,8
+    GROUPBOX        "三相电压不平衡超限判别参数",IDC_STATIC,210,151,189,68
+    LTEXT           "(+/-)XX.XXXX",IDC_STATIC,346,167,49,8
+    LTEXT           "持续时间：",IDC_STATIC,240,184,41,8
+    LTEXT           "越限恢复系数：",IDC_STATIC,224,200,57,8
+    LTEXT           "(+)XX.XX ",IDC_STATIC,346,200,37,8
+    LTEXT           "0 - 255 分",IDC_STATIC,349,182,41,8
+    GROUPBOX        "三相电流不平衡超限判别参数",IDC_STATIC,210,223,189,68
+    LTEXT           "(+/-)XX.XXXX",IDC_STATIC,346,240,49,8
+    LTEXT           "持续时间：",IDC_STATIC,240,257,41,8
+    LTEXT           "越限恢复系数：",IDC_STATIC,224,273,57,8
+    LTEXT           "(+)XX.XX ",IDC_STATIC,346,273,37,8
+    LTEXT           "0 - 255 分",IDC_STATIC,349,255,41,8
+    LTEXT           "(+/-)XXX.XXX",IDC_STATIC,346,93,49,8
+    LTEXT           "不平衡度限值：",IDC_STATIC,224,240,57,8
+END
+
+IDD_DLG_PRE_AFN04_F28 DIALOG DISCARDABLE  0, 0, 210, 112
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AFN04 F8 信息集中与交互终端组地址"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_PARA_1,107,17,41,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PARA_2,107,36,41,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LIMIT_3,107,55,41,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,35,80,50,14
+    PUSHBUTTON      "取消",IDCANCEL,127,80,50,14
+    LTEXT           "总功率因数分段参数1",IDC_STATIC,22,20,77,8
+    LTEXT           "总功率因数分段参数2",IDC_STATIC,22,39,77,8
+    LTEXT           "总功率因数越限告警定值",IDC_STATIC,10,58,89,8
+    LTEXT           "(+)XX.XX",IDC_STATIC,156,20,33,8
+    LTEXT           "(+)XX.XX",IDC_STATIC,156,39,33,8
+    LTEXT           "(+)XX.XX",IDC_STATIC,156,58,33,8
+END
+
+IDD_DLG_PRE_AFN04_F29 DIALOG DISCARDABLE  0, 0, 316, 264
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AFN_04 F29 电气测量点谐波畸变率越限定值"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_sVa_fTotal,75,19,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sVa_fOdd,75,35,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sVa_fEven,75,51,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sVb_fTotal,75,93,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sVb_fOdd,75,109,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sVb_fEven,75,125,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sVc_fTotal,75,166,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sVc_fOdd,75,182,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sVc_fEven,75,198,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sIa_fTotal,219,19,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sIa_fOdd,219,35,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sIa_fEven,219,51,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sIb_fTotal,219,93,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sIb_fOdd,219,109,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sIb_fEven,219,125,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sIc_fTotal,219,166,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sIc_fOdd,219,182,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sIc_fEven,219,198,33,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确认",IDOK,65,233,50,14
+    PUSHBUTTON      "取消",IDCANCEL,195,233,50,14
+    LTEXT           "总畸变率：",IDC_STATIC,30,22,41,8
+    GROUPBOX        "A相电压越限定值",IDC_STATIC,13,8,143,68
+    LTEXT           "(+)XX.XX",IDC_STATIC,113,22,33,8
+    LTEXT           "奇次畸变率：",IDC_STATIC,22,38,49,8
+    LTEXT           "偶次畸变率：",IDC_STATIC,22,54,49,8
+    LTEXT           "(+)XX.XX",IDC_STATIC,113,54,33,8
+    LTEXT           "(+)XX.XX",IDC_STATIC,113,38,33,8
+    GROUPBOX        "B相电压越限定值",IDC_STATIC,13,80,143,68
+    LTEXT           "(+)XX.XX",IDC_STATIC,113,96,33,8
+    LTEXT           "(+)XX.XX",IDC_STATIC,113,128,33,8
+    LTEXT           "(+)XX.XX",IDC_STATIC,113,112,33,8
+    GROUPBOX        "C相电压越限定值",IDC_STATIC,13,152,143,68
+    LTEXT           "(+)XX.XX",IDC_STATIC,113,168,33,8
+    LTEXT           "(+)XX.XX",IDC_STATIC,113,200,33,8
+    LTEXT           "(+)XX.XX",IDC_STATIC,113,184,33,8
+    GROUPBOX        "A相电流越限定值",IDC_STATIC,161,8,143,68
+    LTEXT           "(+)XX.XX",IDC_STATIC,256,54,33,8
+    LTEXT           "(+)XX.XX",IDC_STATIC,256,38,33,8
+    GROUPBOX        "B相电流越限定值",IDC_STATIC,161,80,143,68
+    LTEXT           "(+)XX.XX",IDC_STATIC,256,96,33,8
+    LTEXT           "(+)XX.XX ",IDC_STATIC,256,128,37,8
+    LTEXT           "(+)XX.XX",IDC_STATIC,256,112,33,8
+    GROUPBOX        "C相电流越限定值",IDC_STATIC,161,152,143,68
+    LTEXT           "(+)XX.XX",IDC_STATIC,256,168,33,8
+    LTEXT           "(+)XX.XX ",IDC_STATIC,256,200,37,8
+    LTEXT           "(+)XX.XX",IDC_STATIC,256,184,33,8
+    LTEXT           "(+)XX.XX",IDC_STATIC,256,22,33,8
+    LTEXT           "总畸变率：",IDC_STATIC,176,22,41,8
+    LTEXT           "奇次畸变率：",IDC_STATIC,168,38,49,8
+    LTEXT           "偶次畸变率：",IDC_STATIC,168,54,49,8
+    LTEXT           "总畸变率：",IDC_STATIC,176,96,41,8
+    LTEXT           "奇次畸变率：",IDC_STATIC,168,112,49,8
+    LTEXT           "偶次畸变率：",IDC_STATIC,168,128,49,8
+    LTEXT           "总畸变率：",IDC_STATIC,176,168,41,8
+    LTEXT           "奇次畸变率：",IDC_STATIC,168,184,49,8
+    LTEXT           "偶次畸变率：",IDC_STATIC,168,200,49,8
+    LTEXT           "总畸变率：",IDC_STATIC,30,168,41,8
+    LTEXT           "奇次畸变率：",IDC_STATIC,22,184,49,8
+    LTEXT           "偶次畸变率：",IDC_STATIC,22,200,49,8
+    LTEXT           "总畸变率：",IDC_STATIC,30,96,41,8
+    LTEXT           "奇次畸变率：",IDC_STATIC,22,112,49,8
+    LTEXT           "偶次畸变率：",IDC_STATIC,22,128,49,8
+END
+
+IDD_DLG_PRE_AFN04_F30 DIALOG DISCARDABLE  0, 0, 220, 125
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AFN04 F30 电气测量点闪变越限参数"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,29,92,50,14
+    PUSHBUTTON      "取消",IDCANCEL,121,92,50,14
+    LTEXT           "短时闪变越限值",IDC_STATIC,31,24,57,8
+    LTEXT           "长时时闪变越限值",IDC_STATIC,23,56,65,8
+    EDITTEXT        IDC_EDIT_LONG,94,22,38,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SHORT,94,54,38,13,ES_AUTOHSCROLL
+    LTEXT           "(+)XX.XX",IDC_STATIC,142,26,33,8
+    LTEXT           "(+)XX.XX",IDC_STATIC,142,56,33,8
+END
+
+IDD_DLG_PRE_AFN04_F49 DIALOG DISCARDABLE  0, 0, 303, 337
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AFN04 F49 冻结数据任务参数"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,80,302,50,14
+    PUSHBUTTON      "取消",IDCANCEL,172,302,50,14
+    LTEXT           "冻结基准时间",IDC_STATIC,45,64,49,8
+    LTEXT           "冻结周期",IDC_STATIC,60,98,33,8
+    EDITTEXT        IDC_EDIT_Rept_ucPeriod,101,45,38,14,ES_AUTOHSCROLL
+    LTEXT           "0～255 0表示无需定时上报",IDC_STATIC,153,47,97,8
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER_sTimeFrez_Date,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | 
+                    WS_TABSTOP,101,11,74,14
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER_sTimeFrez_Time,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,188,11,51,14
+    LTEXT           "上报基准时间",IDC_STATIC,45,13,49,8
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER_sTimeRprt_Date,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | 
+                    WS_TABSTOP,101,62,74,14
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER_sTimeRprt_Time,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,188,62,51,14
+    COMBOBOX        IDC_CMB_FREZ_UNIT,101,79,38,90,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "定时上报周期",IDC_STATIC,45,47,49,8
+    COMBOBOX        IDC_CMB_REPT_UNIT,101,29,38,50,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "定时上报周期单位",IDC_STATIC,29,30,65,8
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,22,171,258,113
+    LTEXT           "需要冻结的数据单元",IDC_STATIC,21,133,73,8
+    PUSHBUTTON      "添加",IDC_BTN_ADD,174,149,36,14
+    PUSHBUTTON      "删除",IDC_BTN_DEL,214,149,36,14
+    LTEXT           "冻结周期单位",IDC_STATIC,44,81,49,8
+    EDITTEXT        IDC_EDIT_Frez_usPeriod,101,96,38,14,ES_AUTOHSCROLL
+    LTEXT           "需冻结的次数，0表示无限次数",IDC_STATIC,153,116,109,8
+    COMBOBOX        IDC_CMB_FN_ADD,101,129,150,219,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "测量点号",IDC_STATIC,61,150,33,8
+    EDITTEXT        IDC_EDIT_PN,101,149,27,14,ES_AUTOHSCROLL
+    LTEXT           "0~2040",IDC_STATIC_PN,133,152,40,8
+    LTEXT           "冻结周期数",IDC_STATIC,52,113,41,8
+    EDITTEXT        IDC_EDIT_Frez_ucTimes,101,111,38,14,ES_AUTOHSCROLL
+    LTEXT           "定时冻结间隔，0表示删除本项任务",IDC_STATIC,154,99,125,
+                    8
+END
+
+IDD_DLG_PRE_AFN04_F17 DIALOG DISCARDABLE  0, 0, 248, 339
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AFN04 F17 监测终端上行通信参数配置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,56,305,50,14
+    PUSHBUTTON      "取消",IDCANCEL,146,305,50,14
+    LTEXT           "集中器下行端口号",IDC_STATIC,30,10,65,8
+    EDITTEXT        IDC_EDIT_ucDownPort,101,7,59,12,ES_AUTOHSCROLL
+    LTEXT           "终端上行地址",IDC_STATIC,46,97,49,8
+    LTEXT           "终端子网掩码",IDC_STATIC,46,111,49,8
+    LTEXT           "网关地址",IDC_STATIC,62,123,33,8
+    LTEXT           "代理类型",IDC_STATIC,62,137,33,8
+    LTEXT           "代理服务器地址",IDC_STATIC,38,150,57,8
+    LTEXT           "代理服务器端口",IDC_STATIC,38,162,57,8
+    LTEXT           "代理服务器连接方式",IDC_STATIC,22,174,73,8
+    LTEXT           "0 ~ 255",IDC_STATIC,166,10,29,8
+    LTEXT           "0～20 字符",IDC_STATIC,191,186,41,8
+    LTEXT           "代理服务器用户名",IDC_STATIC,30,186,65,8
+    LTEXT           "代理服务器密码",IDC_STATIC,38,199,57,8
+    CONTROL         "IPAddress1",IDC_IP_sUpIp,"SysIPAddress32",WS_TABSTOP,
+                    101,95,100,12
+    CONTROL         "IPAddress1",IDC_IP_sUpMask,"SysIPAddress32",WS_TABSTOP,
+                    101,109,100,12
+    CONTROL         "IPAddress1",IDC_IP_sGateIp,"SysIPAddress32",WS_TABSTOP,
+                    101,121,100,12
+    CONTROL         "IPAddress1",IDC_IP_sDelgIp,"SysIPAddress32",WS_TABSTOP,
+                    101,147,100,12
+    COMBOBOX        IDC_COMBO_eDelegate,101,134,52,57,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_usDelgPort,101,160,52,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ucDlegUsr,101,184,87,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ucDlegPwd,101,197,87,12,ES_AUTOHSCROLL
+    LTEXT           "0 ~ 65535",IDC_STATIC,166,162,37,8
+    LTEXT           "0～20 字符",IDC_STATIC,191,199,41,8
+    CONTROL         "需要验证",IDC_RADIO_eDelgLink_yes,"Button",
+                    BS_AUTORADIOBUTTON,101,173,48,10
+    CONTROL         "不需要验证",IDC_RADIO_eDelgLink_NO,"Button",
+                    BS_AUTORADIOBUTTON,152,173,56,10
+    LTEXT           "终端侦听端口号",IDC_STATIC,38,22,57,8
+    EDITTEXT        IDC_EDIT_usListenPort,101,20,59,12,ES_AUTOHSCROLL
+    LTEXT           "0 ~ 65535",IDC_STATIC,166,22,37,8
+    LTEXT           "终端上行端口属性",IDC_STATIC,30,36,65,8
+    LTEXT           "行政区划码",IDC_STATIC,54,49,41,8
+    COMBOBOX        IDC_COMBO_eUpPara,101,33,52,57,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "终端地址",IDC_STATIC,62,62,33,8
+    LTEXT           "集中器地址",IDC_STATIC,54,75,41,8
+    LTEXT           "组地址",IDC_STATIC,70,86,25,8
+    CONTROL         "是",IDC_RADIO_sUpAddr_Team_Yes,"Button",
+                    BS_AUTORADIOBUTTON,102,85,24,10
+    CONTROL         "否",IDC_RADIO_sUpAddr_team_no,"Button",
+                    BS_AUTORADIOBUTTON,129,85,24,10
+    EDITTEXT        IDC_EDIT_sUpAddr_RegCode,101,46,59,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sUpAddr_TerAddr,101,59,59,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sUpAddr_ConAddr,101,72,59,12,ES_AUTOHSCROLL
+    LTEXT           "终端允许传输时延",IDC_STATIC,30,214,65,8
+    LTEXT           "重发次数",IDC_STATIC,62,226,33,8
+    LTEXT           "心跳周期",IDC_STATIC,62,240,33,8
+    LTEXT           "终端等待应答超时",IDC_STATIC,30,252,65,8
+    LTEXT           "任务数据自动上报",IDC_STATIC,30,264,65,8
+    LTEXT           "实时数据自动上报",IDC_STATIC,30,275,65,8
+    LTEXT           "事件数据自动上报",IDC_STATIC,30,286,65,8
+    EDITTEXT        IDC_EDIT_ucPermitDelayM,101,211,59,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_RESENDTIMES,101,224,59,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_HEART_BEAT,101,237,59,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TM_WAIT_TIMEOUT,101,250,59,12,ES_AUTOHSCROLL
+    CONTROL         "允许",IDC_RADIO_ASK1_PERMIT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,100,263,32,10
+    CONTROL         "禁止",IDC_RADIO_ASK1_DENY,"Button",BS_AUTORADIOBUTTON,
+                    153,263,32,10
+    CONTROL         "允许",IDC_RADIO_ASK2_PERMIT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,100,274,32,10
+    CONTROL         "禁止",IDC_RADIO_ASK2_DENY,"Button",BS_AUTORADIOBUTTON,
+                    153,274,32,10
+    CONTROL         "允许",IDC_RADIO_ASK3_PERMIT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,100,285,32,10
+    CONTROL         "禁止",IDC_RADIO_ASK3_DENY,"Button",BS_AUTORADIOBUTTON,
+                    153,285,32,10
+    LTEXT           "0~3 0 表示不重发",IDC_STATIC,167,226,65,8
+    LTEXT           "0~4095 秒",IDC_STATIC,167,252,37,8
+    LTEXT           "0~255 分",IDC_STATIC,167,240,33,8
+    LTEXT           "0~255 分",IDC_STATIC,167,214,33,8
+    LTEXT           "0 ~ 127",IDC_STATIC,166,74,29,8
+    LTEXT           "如:110000",IDC_STATIC,166,47,37,8
+END
+
+IDD_DLG_PRE_AFN04_F6 DIALOGEX 0, 0, 229, 302
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AFN04_F6 信息集中与交互终端级联通信参数"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "级联方",IDC_RADIO_bCasc_yes,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,96,6,40,10
+    CONTROL         "被级联方",IDC_RADIO_bCasc_ed,"Button",
+                    BS_AUTORADIOBUTTON,139,6,48,10
+    COMBOBOX        IDC_CMB_eType,97,18,48,62,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMB_BAUD,97,32,47,92,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMB_STOP,97,47,47,47,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMB_DATABIT,97,61,47,56,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMB_CHECK,97,75,47,48,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_ucWaitP,97,90,47,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ucWaitC,97,106,47,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ucReTry,97,123,47,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ucPeriod,97,139,47,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ucN,97,155,47,14,ES_AUTOHSCROLL
+    CONTROL         "1",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | NOT 
+                    WS_VISIBLE | WS_GROUP,71,174,20,10,WS_EX_TRANSPARENT
+    CONTROL         "2",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | NOT 
+                    WS_VISIBLE,92,174,20,10,WS_EX_TRANSPARENT
+    CONTROL         "3",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | NOT 
+                    WS_VISIBLE,113,174,20,10,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT_acRegionCode,97,189,47,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ulConAddr,97,205,47,14,ES_AUTOHSCROLL
+    CONTROL         "IPAddress1",IDC_IP_sIp,"SysIPAddress32",WS_TABSTOP,97,
+                    221,100,15
+    EDITTEXT        IDC_EDIT_usPort,97,238,47,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,35,271,50,14
+    PUSHBUTTON      "取消",IDCANCEL,127,271,50,14
+    LTEXT           "接收等待报文超时时间",IDC_STATIC,9,94,81,8
+    LTEXT           "0~255 分",IDC_STATIC,166,96,33,8
+    LTEXT           "接入方式",IDC_STATIC,57,21,33,8
+    LTEXT           "接收等待字节超时时间",IDC_STATIC,9,109,81,8
+    LTEXT           "接收失败重发次数",IDC_STATIC,25,126,65,8
+    LTEXT           "级联巡测周期",IDC_STATIC,41,142,49,8
+    LTEXT           "级联集中器数",IDC_STATIC,41,156,49,8
+    LTEXT           "行政区划码",IDC_STATIC,53,194,41,8
+    LTEXT           "地址",IDC_STATIC,77,210,17,8
+    LTEXT           "通信地址",IDC_STATIC,61,226,33,8
+    LTEXT           "端口",IDC_STATIC,77,242,17,8
+    LTEXT           "数据位",IDC_STATIC_DATABIT,65,63,25,8
+    LTEXT           "停止位",IDC_STATIC_STOP,65,50,25,8
+    LTEXT           "校验位",IDC_STATIC_CHECK,65,78,25,8
+    LTEXT           "波特率",IDC_STATIC_STOP2,65,35,25,8
+    LTEXT           "级联角色",IDC_STATIC,57,6,33,8
+    GROUPBOX        "",IDC_STATIC_INDEX,41,181,171,77,BS_RIGHT,
+                    WS_EX_TRANSPARENT
+    CONTROL         "Tab1",IDC_TAB_INDEX,"SysTabControl32",0x0,56,174,143,11,
+                    WS_EX_TRANSPARENT
+    LTEXT           "0~3",IDC_STATIC_CON_PARA,152,158,13,8
+END
+
+IDD_DLG_PRE_AFN0A_F2 DIALOGEX 0, 0, 243, 156
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "主(子)站参数"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_NUM_TOTAL,97,17,40,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ID,97,57,40,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,57,119,50,14
+    PUSHBUTTON      "取消",IDCANCEL,149,119,50,14
+    LTEXT           "本次查询共",-1,48,19,41,8
+    LTEXT           "个",-1,137,19,9,8
+    LTEXT           "(1～255)",-1,153,19,33,8
+    GROUPBOX        "                                             ",-1,17,49,
+                    205,44,BS_CENTER
+    LTEXT           "(目前协议有问题，该项暂不设置)",-1,42,91,121,8,NOT 
+                    WS_VISIBLE
+    LTEXT           "编号",-1,72,60,17,8
+    LTEXT           "(0～255)",-1,153,58,33,8
+    CONTROL         "Tab1",IDC_TAB1,"SysTabControl32",TCS_RAGGEDRIGHT,31,34,
+                    176,14,WS_EX_TRANSPARENT
+END
+
+IDD_DLG_PRE_AFN0A_F7 DIALOGEX 0, 0, 243, 156
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "主(子)站参数"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_NUM_TOTAL,97,17,40,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ID,97,57,40,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,57,119,50,14
+    PUSHBUTTON      "取消",IDCANCEL,149,119,50,14
+    LTEXT           "本次查询共",-1,48,19,41,8
+    LTEXT           "个",-1,137,19,9,8
+    LTEXT           "(1～255)",-1,153,19,33,8
+    GROUPBOX        "                                             ",-1,17,49,
+                    205,44,BS_CENTER
+    LTEXT           "(目前协议有问题，该项暂不设置)",-1,42,91,121,8,NOT 
+                    WS_VISIBLE
+    LTEXT           "编号",-1,72,60,17,8
+    LTEXT           "(0～255)",-1,153,58,33,8
+    CONTROL         "Tab1",IDC_TAB1,"SysTabControl32",TCS_RAGGEDRIGHT,31,34,
+                    176,14,WS_EX_TRANSPARENT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "NxMaster Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "NxMaster\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2013\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "NxMaster.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "NxMaster 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 245
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 125
+    END
+
+    IDD_NXMASTER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 11
+        RIGHTMARGIN, 613
+        VERTGUIDE, 228
+        VERTGUIDE, 301
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 389
+        HORZGUIDE, 35
+        HORZGUIDE, 56
+    END
+
+    IDD_DLG_PRE_MST, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 298
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 384
+    END
+
+    IDD_DLG_PRE_TML, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 315
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 352
+    END
+
+    IDD_DLG_PACK, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 307
+        BOTTOMMARGIN, 334
+    END
+
+    IDD_DLG_TASK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 327
+        HORZGUIDE, 39
+    END
+
+    IDD_DLG_UNPACK, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 288
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 324
+    END
+
+    IDD_DLG_PRE_AFN04_F1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 227
+        VERTGUIDE, 150
+        VERTGUIDE, 185
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+        HORZGUIDE, 29
+        HORZGUIDE, 35
+        HORZGUIDE, 96
+        HORZGUIDE, 98
+        HORZGUIDE, 106
+    END
+
+    IDD_DLG_PRE_AFN04_F33, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 224
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_DLG_AFN00_F1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 252
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 219
+    END
+
+    IDD_DLG_PRE_AFN0C_F90_NOT_ELEC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 224
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_DLG_SINGLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 291
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_DLG_PRE_AFN04_F2, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 283
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 327
+    END
+
+    IDD_DIALOG_PN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 226
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 249
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_DLG_PRE_AFN04_F34, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 197
+    END
+
+    IDD_DLG_PRE_AFN04_F35, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 197
+    END
+
+    IDD_DLG_PRE_AFN04_F25_F33, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 260
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 273
+    END
+
+    IDD_DLG_PRE_AFN04_F3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_DLG_PRE_AFN04_F4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 221
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 183
+    END
+
+    IDD_DLG_PRE_AFN04_F5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 254
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 211
+    END
+
+    IDD_DLG_PRE_AFN04_F7, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 253
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+    END
+
+    IDD_DLG_PRE_AFN04_F9, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 294
+        VERTGUIDE, 136
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 332
+    END
+
+    IDD_DLG_PRE_AFN04_F10, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 209
+    END
+
+    IDD_DLG_PRE_AFN04_F26, DIALOG
+    BEGIN
+        LEFTMARGIN, 13
+        RIGHTMARGIN, 286
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 206
+    END
+
+    IDD_DLG_PRE_AFN04_F27, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 405
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 324
+    END
+
+    IDD_DLG_PRE_AFN04_F28, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 105
+    END
+
+    IDD_DLG_PRE_AFN04_F29, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 257
+    END
+
+    IDD_DLG_PRE_AFN04_F30, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 213
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 118
+    END
+
+    IDD_DLG_PRE_AFN04_F49, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 296
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 330
+    END
+
+    IDD_DLG_PRE_AFN04_F17, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 332
+    END
+
+    IDD_DLG_PRE_AFN04_F6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 225
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 295
+    END
+
+    IDD_DLG_PRE_AFN0A_F2, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 241
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_DLG_PRE_AFN0A_F7, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 241
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_MAIN MENU DISCARDABLE 
+BEGIN
+    POPUP "设置(&S)"
+    BEGIN
+        POPUP "字体颜色(&F)"
+        BEGIN
+            MENUITEM "主站命令(&M)",                AFX_SET_CLR_MASTER_MSG
+            MENUITEM "终端消息(&T)",                AFX_SET_TML_CF
+            MENUITEM "提示消息(&S)",                AFX_SET_INFO_CF
+            MENUITEM "命令解析(&U)",                AFX_SET_UNPACK_CF
+        END
+        MENUITEM "清除显示(&C)",                AFX_CLEAR_RICH_EDIT
+        MENUITEM "数据预配(&D)",                AFX_DATA_PRE_SET
+    END
+    MENUITEM "主站(&M)",                    65535
+    POPUP "集中器(&C)"
+    BEGIN
+        MENUITEM "地址(&A)",                    AFX_ID_TM_ADDR
+    END
+    MENUITEM "规约(&P)",                    65535
+    POPUP "任务(&T)"
+    BEGIN
+        MENUITEM "设置(&S)",                    AFX_ID_TK_SET
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于(&A)",                    AFX_ABOUT
+    END
+END
+
+IDR_MENU_RICHEDIT MENU DISCARDABLE 
+BEGIN
+    MENUITEM "",                            65535
+    POPUP "rich_edit"
+    BEGIN
+        MENUITEM "复制(&C)",                    AFX_RICH_COPY
+        MENUITEM "解析(&U)",                    AFX_RICH_TRANS
+        MENUITEM "清空(&R)",                    AFX_RICH_CLR
+        MENUITEM "分划线(&L)",                  AFX_RICH_INSET_LEN
+        MENUITEM "加入任务(&T)",                AFX_RICH_ADDT
+    END
+END
+
+IDR_MENU_PACK_PRE MENU DISCARDABLE 
+BEGIN
+    POPUP "33"
+    BEGIN
+        MENUITEM "配置数据(&S)",                IDM_SET_PRE
+        MENUITEM "勾选单项(&C)",                IDM_ITEM_CHECK
+        MENUITEM "去掉勾选(&U)",                IDM_ITEM_UNCHECK
+    END
+END
+
+IDR_MENU_PN_DEL MENU DISCARDABLE 
+BEGIN
+    POPUP "11"
+    BEGIN
+        MENUITEM "删除(&d)",                    AFX_ID_PN_DEL
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 NxMaster(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\NxMaster.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

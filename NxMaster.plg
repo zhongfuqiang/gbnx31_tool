@@ -1,0 +1,84 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NxMaster - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/NxMaster.res" /d "NDEBUG" /d "_AFXDLL" "C:\GbcMaster\GbcMaster\NxMaster.rc"" 
+Creating temporary file "C:\DOCUME~1\liming\LOCALS~1\Temp\RSP25.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/NxMaster.pdb" /machine:I386 /out:"Release/NxMaster.exe" 
+.\Release\BCMenu.obj
+.\Release\BtnST.obj
+.\Release\CeXDib.obj
+.\Release\CJColorPicker.obj
+.\Release\CJColorPopup.obj
+.\Release\CJFlatComboBox.obj
+.\Release\ColorListCtrl.obj
+.\Release\DlgPre_AFN0C_FN90_NOT_ELEC.obj
+.\Release\DlgPreA00F1.obj
+.\Release\DlgPreAfn04F1.obj
+.\Release\DlgPreAfn04F10.obj
+.\Release\DlgPreAfn04F17.obj
+.\Release\DlgPreAfn04F2.obj
+.\Release\DlgPreAfn04F25_33.obj
+.\Release\DlgPreAfn04F26.obj
+.\Release\DlgPreAfn04F27.obj
+.\Release\DlgPreAfn04F28.obj
+.\Release\DlgPreAfn04F29.obj
+.\Release\DlgPreAfn04F3.obj
+.\Release\DlgPreAfn04F30.obj
+.\Release\DlgPreAfn04F33.obj
+.\Release\DlgPreAfn04F34.obj
+.\Release\DlgPreAfn04F35.obj
+.\Release\DlgPreAfn04F4.obj
+.\Release\DlgPreAfn04F49.obj
+.\Release\DlgPreAfn04F5.obj
+.\Release\DlgPreAfn04F6.obj
+.\Release\DlgPreAfn04F7.obj
+.\Release\DlgPreAfn04F9.obj
+.\Release\DlgPreAfn0aF2.obj
+.\Release\DlgPreAfn0AF7Q.obj
+.\Release\DlgPrePn.obj
+.\Release\DlgPreSingle.obj
+.\Release\FontColorTree.obj
+.\Release\Gbnx_31.obj
+.\Release\HyperLink.obj
+.\Release\ListCtrlSock.obj
+.\Release\MyRichEdit.obj
+.\Release\NxConfig.obj
+.\Release\NxMaster.obj
+.\Release\NxMasterDlg.obj
+.\Release\NxRuler.obj
+.\Release\PPTooltip.obj
+.\Release\PupText.obj
+.\Release\Qgdw3761api.obj
+.\Release\Registry.obj
+.\Release\ServerSock.obj
+.\Release\ShadeButtonST.obj
+.\Release\SortHeaderCtrl.obj
+.\Release\StdAfx.obj
+.\Release\TabDlgPack.obj
+.\Release\TabDlgPreMaster.obj
+.\Release\TabDlgPreTml.obj
+.\Release\TabDlgTask.obj
+.\Release\TabDlgUnpack.obj
+.\Release\Terminal.obj
+.\Release\TerminalSock.obj
+.\Release\XPTabCtrl.obj
+.\Release\NxMaster.res
+]
+Creating command line "link.exe @C:\DOCUME~1\liming\LOCALS~1\Temp\RSP25.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+NxMaster.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
